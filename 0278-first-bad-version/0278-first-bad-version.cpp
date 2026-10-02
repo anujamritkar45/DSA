@@ -13,7 +13,7 @@ public:
             if(!isBadVersion(mid)){
                 start=mid+1;
             }
-            else if(isBadVersion(mid)==true){
+            else{
                 ans=mid;
                 end=mid-1;
             }
