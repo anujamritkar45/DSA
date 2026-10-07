@@ -1,8 +1,6 @@
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-        int i=0;
-        int j=0;
         vector<int> result(nums.size());
         for(int i=0;i<nums.size();i++){
             int index=0;
